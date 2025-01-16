@@ -6,5 +6,6 @@ This project explores the decline of the Marvel franchise over the years, showca
 - [Datawrapper](https://www.datawrapper.de/): For creating interactive visualizations.  
 - **HTML & CSS**: For web-based visualization embedding and layout design.
 
-### Hosted Website : https://aparna003.github.io/Marvel_data_analysis/
+### Hosted Website :
+https://aparna003.github.io/Marvel_data_analysis/
 
