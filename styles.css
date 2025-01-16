@@ -1,0 +1,115 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.6;
+    background-color: var(--my-grey);
+    color: #333;
+    padding: 20px;
+}
+
+
+  
+.column {
+    width: 700px;
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#deck {
+    font-family:  'Montserrat',sans-serif;;
+    font-size: 16px;
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+#chart-descriptor {
+    font-family: 'Montserrat',sans-serif;
+    font-weight:500px;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.4;
+    margin-bottom:20px;
+    
+}
+
+iframe {
+    width: 100%; /* Full width */
+    max-width: 900px; /* Limit iframe width */
+    height: 500px; /* Initial height of iframe */
+    margin: 0 auto; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#source .dot {
+    margin: 0 5px;
+    font-size: 18px;
+    color: #333;
+}
+#note{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: italic;
+    color:rgb(97, 95, 95);
+  }
+#source{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    color:rgb(135, 132, 132);
+    line-height: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom:80px;
+  }
+#source-highlight{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    color:rgba(50, 148, 214, 0.854);
+   
+    
+  }
+ a{
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    color:rgba(50, 148, 214, 0.854);
+ }
+
+
+/* Responsive Design for Smaller Screens */
+/* Adjusted height for medium-sized screens */
+@media (max-width: 768px) {
+    iframe {
+        height: 400px; 
+    }
+}
+
+/* Adjusted height for small screens */
+@media (max-width: 480px) {
+    iframe {
+        height: 350px; 
+    }
+}
+
